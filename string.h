@@ -2,5 +2,10 @@
 #include <stdlib.h>
 #include <string.h>
 
-char *prtdline_copy = NULL;
-const char *delim = " \n";
+int main(int ac, char **argv)
+{
+    char *prtdline_copy = NULL;
+    const char *delim = " \n";
+
+    return (0);
+}
