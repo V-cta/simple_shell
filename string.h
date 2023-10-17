@@ -4,4 +4,3 @@
 
 char *prtdline_copy = NULL;
 const char *delim = " \n";
-
