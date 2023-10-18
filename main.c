@@ -3,17 +3,16 @@
 #include <string.h>
 #include "main.h"
 
-int main(int ac, char **argv)
+int main(int ac)
 {
-	(void)argv; /* Making the parameter as unused*/
-     char *prompt = "(simple_shell) $ ";
-     char *prtdline = NULL, *prtdline_copy = NULL;
-     size_t n = 0;
-     ssize_t read_char;
-     const char *delim = " \n";
-     int num_tokens = 0;
-     char *token;
-     int i;
+	char *prompt = "(simple_shell) $ ";
+	char *prtdline = NULL, *prtdline_copy = NULL;
+	size_t n = 0;
+	ssize_t read_char;
+	const char *delim = " \n";
+	int num_tokens = 0;
+	char *token;
+	int i;
 
   /* declaring void variables */
     (void)ac;
