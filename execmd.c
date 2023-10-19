@@ -5,7 +5,6 @@
  * cmdexe - Execute a command with given arguments.
  * @argv: An array of strings containing the command and its arguments.
  */
-
 void cmdexe(char **argv)
 {
 	if (argv)
