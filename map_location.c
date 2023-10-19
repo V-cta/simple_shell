@@ -3,6 +3,11 @@
 #include <string.h>
 #include <sys/stat.h>
 
+/**
+ * map_location - Locate the executable file in the system's PATH.
+ * @command: The command to locate.
+ * Return: A pointer to the located file, or NULL if not found.
+ */
 char *map_location(char *command)
 {
 	char *map, *map_copy, *map_token, *file_map;

@@ -3,6 +3,13 @@
 #include <string.h>
 #include "main.h"
 
+/**
+ * main - Entry point for the shell program.
+ * @ac: The number of command-line arguments.
+ * @argv: An array of strings containing the arguments.
+ * Return: 0 on success, -1 on failure.
+ */
+
 int main(int ac)
 {
 	char *prompt = "(simple_shell) $ ";
