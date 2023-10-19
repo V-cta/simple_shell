@@ -3,9 +3,11 @@
 
 void cmdexe(char **argv)
 {
-	char *command = NULL, *actual_command = NULL;
 	if (argv)
 	{
+		char *command = NULL;
+		char *actual_command = NULL;
+
 		/* get the command */
 		command = argv[0];
 		/* generate the path to this command before passing it to execve */
